@@ -38,7 +38,7 @@ msg_ok "Configured Environment"
 msg_info "Configuring Nginx"
 cat <<'EOF' >/etc/nginx/sites-available/laser-tracker
 server {
-    listen 80;
+    listen 80 default_server;
     server_name _;
     client_max_body_size 10M;
 

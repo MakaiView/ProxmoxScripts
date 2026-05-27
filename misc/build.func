@@ -100,6 +100,7 @@ fi
 post_to_api() { :; }
 post_progress_to_api() { :; }
 post_update_to_api() { :; }
+start_install_timer() { :; }
 
 # ==============================================================================
 # SECTION 2: PRE-FLIGHT CHECKS & SYSTEM VALIDATION

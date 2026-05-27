@@ -59,3 +59,7 @@ function update_script() {
 start
 build_container
 description
+msg_ok "${APP} installed successfully"
+echo -e "\n  ${BFR}${GN}Access the app at:${CL}  http://${IP}"
+echo -e "  ${BFR}${GN}SSH into container:${CL} ssh root@${IP}"
+echo -e "  ${BFR}${GN}Config file:${CL}        /opt/laser-tracker/.env\n"
