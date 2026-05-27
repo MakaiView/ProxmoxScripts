@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-source <(curl -fsSL https://raw.githubusercontent.com/MakaiView/ProxmoxScripts/main/misc/build.func)
+source <(curl -fsSL https://raw.githubusercontent.com/MakaiView/ProxmoxScripts/master/misc/build.func)
 # Copyright (c) 2024-2026 Makai View Media
 # Author: MakaiView (Steve Robinson)
 # License: MIT

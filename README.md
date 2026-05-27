@@ -9,7 +9,7 @@ Forked from [community-scripts/ProxmoxVE](https://github.com/community-scripts/P
 Run the one-liner for a specific app from a **Proxmox host shell**:
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/MakaiView/ProxmoxScripts/main/ct/laser-tracker.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/MakaiView/ProxmoxScripts/master/ct/laser-tracker.sh)"
 ```
 
 Re-running the same command from inside the created container calls `update_script()` to pull the latest code without recreating the container.
