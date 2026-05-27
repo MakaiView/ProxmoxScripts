@@ -96,6 +96,10 @@ elif command -v wget >/dev/null 2>&1; then
   catch_errors
 fi
 
+# Stub out api.func telemetry calls so they silently no-op
+post_to_api() { :; }
+post_progress_to_api() { :; }
+
 # ==============================================================================
 # SECTION 2: PRE-FLIGHT CHECKS & SYSTEM VALIDATION
 # ==============================================================================
